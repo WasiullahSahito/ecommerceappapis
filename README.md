@@ -1,12 +1,74 @@
-# React + Vite
+FakeStore React Application
+A complete e-commerce application built with React that demonstrates product browsing, cart management, and checkout functionality using the FakeStore API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+🏠 Product Catalog: Browse products by category with images, titles, and prices
 
-Currently, two official plugins are available:
+🔍 Product Details: View detailed information about each product
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛒 Shopping Cart: Add/remove items, adjust quantities, and see cart totals
 
-## Expanding the ESLint configuration
+🔄 Category Filtering: Filter products by electronics, jewelry, clothing, and more
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💳 Checkout Process: Complete order with shipping and payment information
+
+📱 Responsive Design: Works on mobile, tablet, and desktop devices
+
+🔄 Persistent Cart: Cart data saved in localStorage
+
+⚡ API Integration: Uses FakeStoreAPI for product data
+
+Technologies Used
+Frontend: React
+
+State Management: React Context API
+
+Routing: React Router DOM
+
+API Client: Axios
+
+Styling: Custom CSS with responsive design
+
+API: FakeStoreAPI
+
+API Endpoints Used
+GET /products - Get all products
+
+GET /products/:id - Get single product
+
+GET /products/categories - Get all categories
+
+GET /products/category/:category - Get products by category
+
+Features in Detail
+Product Catalog
+Display products with images, titles, prices
+
+Filter products by category
+
+Responsive grid layout
+
+Product Details
+View full product description
+
+See product rating and reviews
+
+Add to cart with quantity selector
+
+Shopping Cart
+Add/remove items
+
+Adjust quantities
+
+See subtotal and total
+
+Persistent cart across sessions
+
+Checkout Process
+Shipping information form
+
+Payment details form
+
+Order summary with items and totals
+
+Order confirmation screen
