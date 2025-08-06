@@ -17,7 +17,7 @@ const Navbar = () => {
                 {/* FIX: Brand logo now links to homepage */}
                 <Link to="/" className="navbar-brand">
                     <span className="navbar-icon">🛒</span>
-                    MyStore
+                    FakeStore
                 </Link>
 
                 <div className="navbar-links">
