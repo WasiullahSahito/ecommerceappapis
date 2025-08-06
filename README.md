@@ -1,4 +1,5 @@
-FakeStore React Application
+React FakeStore - A Simple E-commerce Application 🛒
+
 A complete e-commerce application built with React that demonstrates product browsing, cart management, and checkout functionality using the FakeStore API.
 
 Features
